@@ -1,0 +1,5 @@
+generated-test-sources/
+maven-archiver/
+surefire-reports/
+maven-status/
+test-classes/
