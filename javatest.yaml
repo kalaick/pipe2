@@ -5,7 +5,7 @@
     become_user: root
     tasks:
       - name: Create Drupal container
-      docker_container:
+        docker_container:
         name: javatest
         image: testjava:v1
         state: started
