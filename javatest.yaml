@@ -6,8 +6,8 @@
     tasks:
       - name: Create Drupal container
         docker_container:
-          name: javatest
-          image: testjava:v1
+          name: jaava
+          image: kalai55100/centos:java
           state: started
           recreate: yes
           ports:
