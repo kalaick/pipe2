@@ -1,0 +1,8 @@
+- name: Create Drupal container
+      docker_container:
+        name: javatest
+        image: testjava:v1
+        state: started
+        recreate: yes
+        ports:
+         - "8082:8081"
