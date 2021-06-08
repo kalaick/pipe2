@@ -7,10 +7,4 @@
       ansible_python_interpreter: /usr/bin/python2.7
     tasks:
       - name: Create Drupal container
-        docker_container:
-          name: jaava
-          image: kalai55100/centos:java
-          state: started
-          recreate: yes
-          ports:
-           - "8082:8081"
+        command: docker run -d -p 8082:8081 --name=java kalai55100/centos:java
