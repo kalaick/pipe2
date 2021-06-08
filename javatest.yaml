@@ -7,7 +7,7 @@
       - name: Create Drupal container
         docker_container:
           name: jaava
-          image: kalai55100/centos:java
+          image: kalai55100/centos:v1
           state: started
           recreate: yes
           ports:
