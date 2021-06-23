@@ -7,4 +7,4 @@
       ansible_python_interpreter: /usr/bin/python2.7
     tasks:
       - name: Create test container
-        command: docker run -d -p 8082:8081 --name=java kalai55100/centos:java
+        command: docker run -d -t -p 8082:8081 --name=java kalai55100/centos:java
