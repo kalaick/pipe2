@@ -1,4 +1,4 @@
-FROM openjdk:oraclelinux8
+FROM centos:7
 MAINTAINER myNAME
 RUN mkdir /app
 WORKDIR /app
